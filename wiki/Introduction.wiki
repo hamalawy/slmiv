@@ -1,10 +1,10 @@
 = Introduction =
 
 == Importing Inventory to SLMIV ==
-SLMIV version 2 makes it easier to obtain your avatar's in world inventory then previous versions of SLMIV.  There are three ways to import inventory into SLMIV
-# Browse to a .inv file (like version 1.x)
-# Connect directly to Second Life
-# Browse to a properly formatted .xml file
+SLMIV version 2 makes it easier to obtain your avatar's in world inventory then previous versions of SLMIV.  There are three ways to import inventory into SLMIV:
+  # Browse to a .inv file (like version 1.x)
+  # Connect directly to Second Life
+  # Browse to a properly formatted .xml file
 
 Click on the 'SL Connection' tab and enter in your avatar's SL login information.  
 ||http://joeswammi.com/sl/se/slmyinventory/slmiv2_srcnConn_sm.jpg||

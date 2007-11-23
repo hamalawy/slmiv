@@ -15,6 +15,7 @@ We ask that all developers use the following guidelines to ensure stable version
   # If needed, make sure joesox updates SLMIV websites with current documentation
 
 == Development Schedule ==
+[http://www.google.com/calendar/render?cid=i8a4dbp3rumt4f7lpr019i5cv0%40group.calendar.google.com http://www.google.com/calendar/images/ext/gc_button1_en.gif]
 
 ||DATE||PLANNED||
 ||11-22-2007 11:59pm||End of active development||

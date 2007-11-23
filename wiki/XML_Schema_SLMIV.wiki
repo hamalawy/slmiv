@@ -1,4 +1,8 @@
 #labels Featured
-= SLMIV XML Schema =
-||*Tag*||*SL Description*||*SLMIV Description*||
-||<category></category>||Inventory Folder||This tag is created by{{{SLMIV.Utils.MIUtils.TreeViewToXML(TreeView treeViewOne, string filename)}}}||
+= SLMIV XML Schema 2.7.0 =
+||_Tag_||_SL Description_||_SLMIV Description_||
+||<category></category>||Inventory Folder||This element tag is created by {{{SLMIV.Utils.MIUtils.TreeViewToXML(TreeView treeViewOne, string filename)}}}. This value is kept in the treeView1.Nodes[x].Tag field and is assigned in Form1.CreateTreeView() and Form1.InsertUnderParent||
+||<object></object>||Inventory Item (everything but a Folder)||This element tag is created by {{{SLMIV.Utils.MIUtils.TreeViewToXML(TreeView treeViewOne, string filename)}}}. This value is kept in the treeView1.Nodes[x].Tag field and is assigned in Form1.CreateTreeView() and Form1.InsertUnderParent||
+||name||Inventory object's name||This is an attribute for an element tag.  Assign an object's name here. eg. name="Dice (drag to ground)".  In SLMIV, this value gets assigned by the TreeNode's Text value.||
+||uuid||Inventory object's UUID||This is an attribute for an element tag.  Assign an object's UUID here. eg. uuid="cedfdd9a-2557-be30-4bcb-553363434106". In SLMIV, this value gets assigned by the TreeNode's Name value.||
+||image||Icon that is displayed for the inventory object||This is an attribute for an element tag.  Assign an object's treeView icon here. eg. image="5". SLMIV.Utils.MIUtils.ImageWriteAttributeString(XmlTextWriter xmlw, TreeNode node)||

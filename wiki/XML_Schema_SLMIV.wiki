@@ -1,8 +1,8 @@
 #labels Featured
 = SLMIV XML =
-SLMIV v2 allows the exporting and importing of XML.  The requirenment for a properly formatted SLMIV XML is as follows:
+SLMIV v2 allows the exporting and importing of XML.  The requirement for a properly formatted SLMIV XML is as follows:
   #XML must be formatting to the Schema below.
-  #If you want SLMIV to automaticaly find the avatar's UUID when the XML is read, there must be a <category name="Photo Album" uuid="xxxxx etc" image="0"> element tag in the XML file.
+  #If you want SLMIV to automatically find the avatar's UUID when the XML is read, there must be a <category name="Photo Album" uuid="xxxxx etc" image="0"> element tag in the XML file.
 
 = SLMIV XML Schema 2.7.0 =
 ||_Tag_||_SL Description_||_SLMIV Description_||

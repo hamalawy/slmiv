@@ -1,4 +1,5 @@
 = How to Import the Jasper.xml Example =
-||  #Delete or rename imagelog.txt.  #Copy then rename "imagelog-Jasper.txt" to "imagelog.txt"||http://joeswammi.com/sl/se/slmyinventory/jaspertxt.jpg||
-||  *Open SLMIV and imagelog.txt will be loaded.||http://joeswammi.com/sl/se/slmyinventory/imagelog.jpg||
-||  *Click on the "Import-Export" tab or "Import" option on the menubar then choose .xml.  *Navigate to the xml folder that has the file named "Jasper.xml". Click ok.||http://joeswammi.com/sl/se/slmyinventory/jasperxml.jpg||
+||  Delete or rename imagelog.txt.  Copy then rename "imagelog-Jasper.txt" to "imagelog.txt"||http://joeswammi.com/sl/se/slmyinventory/jaspertxt.jpg||
+||  Open SLMIV and imagelog.txt will be loaded.||http://joeswammi.com/sl/se/slmyinventory/imagelog.jpg||
+||  Click on the "Import-Export" tab or "Import" option on the menubar then choose .xml.  Navigate to the xml folder that has the file named "Jasper.xml". Click ok.  NOTE: A progressbar will be displayed if there is a large amount of items in the xml. ||http://joeswammi.com/sl/se/slmyinventory/jasperxml.jpg||
+||  Jasper's imagelog contains three image associations. ||http://joeswammi.com/sl/se/slmyinventory/jasperimages.jpg||

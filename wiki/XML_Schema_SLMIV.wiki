@@ -1,11 +1,76 @@
 #labels Featured
 = SLMIV XML Schema 2.7.0 =
 ||_Tag_||_SL Description_||_SLMIV Description_||
-||<category></category>||Inventory Folder||This element tag is created by {{{SLMIV.Utils.MIUtils.TreeViewToXML(TreeView treeViewOne, string filename)}}}. This value is kept in the treeView1.Nodes[x].Tag field and is assigned in {{{Form1.CreateTreeView()}}} and {{{Form1.InsertUnderParent}}}||
+||<category></category>||Inventory Folder||This element tag is created by {{{SLMIV.Utils.MIUtils.TreeViewToXML(TreeView treeViewOne, string filename)}}}. This value is kept in the {{{treeView1.Nodes[x].Tag}}} field and is assigned in {{{Form1.CreateTreeView()}}} and {{{Form1.InsertUnderParent}}}||
 ||<object></object>||Inventory Item (everything but a Folder)||This element tag is created by {{{SLMIV.Utils.MIUtils.TreeViewToXML(TreeView treeViewOne, string filename)}}}. This value is kept in the {{{treeView1.Nodes[x].Tag}}} field and is assigned in {{{Form1.CreateTreeView()}}} and {{{Form1.InsertUnderParent}}}||
-||name||Inventory object's name||This is an attribute for an element tag.  Assign an object's name here. eg. name="Dice (drag to ground)".  In SLMIV, this value gets assigned by the TreeNode's Text value.||
-||uuid||Inventory object's UUID||This is an attribute for an element tag.  Assign an object's UUID here. eg. uuid="cedfdd9a-2557-be30-4bcb-553363434106". In SLMIV, this value gets assigned by the TreeNode's Name value.||
+||name||Inventory object's name||This is an attribute for an element tag.  Assign an object's name here. eg. name="Dice (drag to ground)".  In SLMIV, this value gets assigned by the {{{TreeNode's}}} Text value.||
+||uuid||Inventory object's UUID||This is an attribute for an element tag.  Assign an object's UUID here. eg. uuid="cedfdd9a-2557-be30-4bcb-553363434106". In SLMIV, this value gets assigned by the {{{TreeNode's}}} Name value.||
 ||image||Icon that is displayed for the inventory object||This is an attribute for an element tag.  Assign an object's treeView icon here. eg. image="5". {{{SLMIV.Utils.MIUtils.ImageWriteAttributeString(XmlTextWriter xmlw, TreeNode node)}}} See the table below for the current images and their values.  In SLMIV, {{{SLMIV.Utils.MIUtils.Getinv_type(string invtype)}}} is used to evaluates the Item's inv_type tag, or Folder's pref_type to return an imagelist value.||
 
 == Icon Images and Values ==
 ||Main ImageList in SLMIV||{{{SLMIV.Utils.MIUtils.Getinv_type(string invtype)}}}||
+||http://joeswammi.com/sl/se/slmyinventory/treeviewimagelist.jpg||{{{            /// <summary>
+            /// Evaluates the Item's inv_type tag, or Folder's pref_type to return an imagelist value
+            /// </summary>
+            /// <param name="invtype">Item's inv_type tag</param>
+            /// <returns>imagelist value</returns>
+            public static int Getinv_type(string invtype)
+            {
+                invtype = invtype.ToLower();
+
+                int imageindex = 0;
+                //What type of item is it?
+                switch (invtype)
+                {
+                    case "-1":
+                        imageindex = 0;
+                        break;
+                    case "category":
+                        imageindex = 0;
+                        break;
+                    case "categoryopen":
+                        imageindex = 1;
+                        break;
+                    case "trash":
+                        imageindex = 2;
+                        break;
+                    case "trashfolder":
+                        imageindex = 2;
+                        break;
+                    case "texture":
+                        imageindex = 3;
+                        break;
+                    case "gesture":
+                        imageindex = 4;
+                        break;
+                    case "object":
+                        imageindex = 5;
+                        break;
+                    case "wearable":
+                        imageindex = 6;
+                        break;
+                    case "script":
+                        imageindex = 7;
+                        break;
+                    case "lsl":
+                        imageindex = 7;
+                        break;
+                    case "snapshot":
+                        imageindex = 8;
+                        break;
+                    case "sound":
+                        imageindex = 9;
+                        break;
+                    case "notecard":
+                        imageindex = 10;
+                        break;
+                    case "landmark":
+                        imageindex = 11;
+                        break;
+                    default:
+                        imageindex = 5;
+                        break;
+                }
+
+                return imageindex;
+            }}}}||

@@ -9,20 +9,7 @@
 
 == Icon Images and Values ==
 ||Main ImageList in SLMIV||{{{SLMIV.Utils.MIUtils.Getinv_type(string invtype)}}}||
-||http://joeswammi.com/sl/se/slmyinventory/treeviewimagelist.jpg||{{{            /// <summary>
-            /// Evaluates the Item's inv_type tag, or Folder's pref_type to return an imagelist value
-            /// </summary>
-            /// <param name="invtype">Item's inv_type tag</param>
-            /// <returns>imagelist value</returns>
-            public static int Getinv_type(string invtype)
-            {
-                invtype = invtype.ToLower();
-
-                int imageindex = 0;
-                //What type of item is it?
-                switch (invtype)
-                {
-                    case "-1":
+||http://joeswammi.com/sl/se/slmyinventory/treeviewimagelist.jpg||{{{                    case "-1":
                         imageindex = 0;
                         break;
                     case "category":
@@ -69,8 +56,4 @@
                         break;
                     default:
                         imageindex = 5;
-                        break;
-                }
-
-                return imageindex;
-            }}}}||
+                        break;}}}||

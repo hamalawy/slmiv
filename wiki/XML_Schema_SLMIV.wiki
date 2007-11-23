@@ -1,7 +1,4 @@
 #labels Featured
 = SLMIV XML Schema =
 ||*Tag*||*SL Description*||*SLMIV Description*||
-||<category></category>||Inventory Folder||This tag is created by
-{{{
-SLMIV.Utils.MIUtils.TreeViewToXML(TreeView treeViewOne, string filename)
-}}}||
+||<category></category>||Inventory Folder||This tag is created by{{{SLMIV.Utils.MIUtils.TreeViewToXML(TreeView treeViewOne, string filename)}}}||

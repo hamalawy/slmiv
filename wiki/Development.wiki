@@ -1,0 +1,22 @@
+= Development Introduction =
+
+SL My Inventory Viewer (SLMIV) is now on a quarterly development schedule since most major features are now implemented.  If you are interested in participating in this project email joesox.
+
+== Developer Standards ==
+We ask that all developers use the following guidelines to ensure stable versions and not break any versions of SLMIV.
+
+
+=== SLMIV Development:===
+  # Work with a copy of the latest version SLMIV Visual Studio project.
+  # Thoroughly test your working copy.
+  # Repeat step 1 - 3 until no bugs.
+  # Commit changes.
+  # Update issue trackers.
+  # If needed, make sure joesox updates SLMIV websites with current documentation
+
+== Development Schedule ==
+
+||DATE||PLANNED||
+||11-22-2007 11:59pm||End of active development||
+||01-25-2008 12:00am||Start of active development. Work on issues||
+||01-27-2008 11:59pm||End of active development.|| 

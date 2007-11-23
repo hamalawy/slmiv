@@ -1,3 +1,4 @@
+#labels Featured
 = How to Import the Jasper.xml Example =
 ||  Delete or rename imagelog.txt.  Copy then rename "imagelog-Jasper.txt" to "imagelog.txt"||http://joeswammi.com/sl/se/slmyinventory/jaspertxt.jpg||
 ||  Open SLMIV and imagelog.txt will be loaded.||http://joeswammi.com/sl/se/slmyinventory/imagelog.jpg||

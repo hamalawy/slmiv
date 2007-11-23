@@ -3,18 +3,20 @@
 
 == Importing Inventory to SLMIV ==
 SLMIV version 2 makes it easier to obtain your avatar's in world inventory then previous versions of SLMIV.  There are three ways to import inventory into SLMIV:
-  # Browse to your avatar's .inv file (like version 1.x) or .gz cache
+  # Browse to your avatar's .gz cache or its extracted .inv file
   # Connect directly to Second Life using "SL Connection"
   # Browse to a properly formatted .xml file
 
 === Browse to your avatar's .inv file or .gz cache ===
 ||http://joeswammi.com/sl/se/slmyinventory/open_scrn.jpg||
+
   # From the "Import-Export" tab, press the "Browse to .inv/.gz..." button.
   # Browse to your .gz file. It will be found at this location on your harddrive:
 C:\Documents and Settings\LoginName\Application Data\SecondLife\cache\xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.inv.gz
 
 === Connect directly to Second Life using "SL Connection" ===
 ||http://joeswammi.com/sl/se/slmyinventory/slmiv2_srcnConn_sm.jpg||
+
   # Click on the 'SL Connection' tab and enter in your avatar's SL login information.  It may take 60 to 90 seconds (like the regular SL login) and your tab view will be sent to the 'My Inventory' tab when your avatar's inventory has been imported to SLMIV.  
   # After importing inventory via 'SL Connection', a local copy of your avatar's .inv file is stored in 'C:\Program Files\SL My Inventory Viewer v2\inv'
 

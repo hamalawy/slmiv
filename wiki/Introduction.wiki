@@ -10,6 +10,7 @@ SLMIV version 2 makes it easier to obtain your avatar's in world inventory then 
 === Browse to your avatar's .inv file or .gz cache ===
 ||http://joeswammi.com/sl/se/slmyinventory/open_scrn.jpg||
 
+  # Make sure your Windows settings are set to view Hidden Folders and Files.
   # From the "Import-Export" tab, press the "Browse to .inv/.gz..." button.
   # Browse to your .gz file. It will be found at this location on your harddrive:
 C:\Documents and Settings\LoginName\Application Data\SecondLife\cache\xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.inv.gz
@@ -20,8 +21,11 @@ C:\Documents and Settings\LoginName\Application Data\SecondLife\cache\xxxxxxxx-x
   # Click on the 'SL Connection' tab and enter in your avatar's SL login information.  It may take 60 to 90 seconds (like the regular SL login) and your tab view will be sent to the 'My Inventory' tab when your avatar's inventory has been imported to SLMIV.  
   # After importing inventory via 'SL Connection', a local copy of your avatar's .inv file is stored in 'C:\Program Files\SL My Inventory Viewer v2\inv'
 
+==== Troubleshooting SL Connection ====
 Connection error messages will be displayed in red.
 You may wish to also Export your current inventory to xml at anytime by using the Export to xml feature.
+The connection normally starts having problems when there are issues with the SL Servers themselves. The SL Grid Status is located on the SL Connection tab. 
+Try connecting again when SL states that the regions are cleared up and you are able to login properly with the regular viewer.
 
 === Browse to a properly formatted .xml file ===
 Any locally stored .inv or .xml file that was created by SLMIV v2 can be imported.

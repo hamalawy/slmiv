@@ -23,7 +23,7 @@ Please read Pandorabot.com FAQ and tutorials for customizing your Pandorabot's a
 ||http://farm3.static.flickr.com/2057/2381944944_4200ba6a48_o.jpg||
 
 === Step 3: Close the notecards that open then create a new object ===
-||http://farm3.static.flickr.com/2057/2381944944_4200ba6a48_o.jpg||
+||http://farm3.static.flickr.com/2162/2381112699_bc3323e903_o.jpg||
 
 === Step 4: Copy the BOTID_CARD and Client script into new object ===
 ||http://farm3.static.flickr.com/2162/2381112699_bc3323e903_o.jpg||

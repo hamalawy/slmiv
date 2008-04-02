@@ -1,0 +1,29 @@
+= Pandorabot Client Script Tutorial =
+Here is a screenshot tutorial on how to use Seneca Enterprise's Pandorabot Script
+http://shop.onrez.com/item/322201
+
+
+== Prerequisites ==
+1) Your own Pandorabot or at least a Pandorabot botid
+2) [http://shop.onrez.com/item/322201 |"Pandorabot Client vx.x.x" Kit]
+
+
+== Q: How do I create my own Pandorabot? ==
+A: Assuming you have not created your own Pandorabot chatbot yet, the directions are as follows:
+    a. Go to http://www.pandorabots.com to create an account and create your own bot.  It is not that difficult and is rather fast.  Take note of your Pandorabot's id number.
+Please read Pandorabot.com FAQ and tutorials for customizing your Pandorabot's answers and personal information.
+
+
+== Screenshot Tutorial ==
+
+=== Step 1: Rez Kit ===
+
+=== Step 2: Touch kit and click copy to inventory ===
+
+=== Step 3: Close the notecards that open then create a new object ===
+
+=== Step 4: Copy the BOTID_CARD and Client script into new object ===
+
+=== Step 5: Open the BOTID_CARD and place your botid CLICK SAVE ===
+
+=== Step 6: Take the new object into your inventory-rerez it and wala. Please make sure you are on land that has scripts enabled! === 

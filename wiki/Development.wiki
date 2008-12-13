@@ -19,6 +19,5 @@ We ask that all developers use the following guidelines to ensure stable version
 [http://www.google.com/calendar/render?cid=i8a4dbp3rumt4f7lpr019i5cv0%40group.calendar.google.com http://www.google.com/calendar/images/ext/gc_button1_en.gif]
 
 ||DATE||PLANNED||
-||11-22-2007 11:59pm||End of active development||
-||01-25-2008 12:00am||Start of active development. Work on issues||
-||01-27-2008 11:59pm||End of active development.|| 
+||01-22-2008 12:00am||Start of active development. Work on issues||
+||01-25-2008 11:59pm||End of active development.|| 

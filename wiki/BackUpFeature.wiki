@@ -1,6 +1,14 @@
 #labels Featured
 = How do I perform a backup? =
-There are two ways to backup 
+There are two ways to perform backups as described below [Back-up Batch Jobs & Right-Click Individual Back-ups]
+
+{{{
+Q: Where are the backups saved to on my hard drive?
+A: Where USERNAME = Windows username;AVATARNAME= Second Life name
+-Windows XP:	C:\Documents and Settings\USERNAME\My Documents\SLMIV\backup\AVATARNAME
+-Windows Vista:	C:\Users\USERNAME\Documents\SLMIV\backup\AVATARNAME
+-Windows 7:	C:\Users\USERNAME\Documents\SLMIV\backup\AVATARNAME
+}}} 
 
 = Back-up Batch Jobs =
 ||Sign-in using the 'SL Connection' tab feature.||http://joeswammi.com/sl/se/slmyinventory/slmiv2_srcnConn_sm.jpg||

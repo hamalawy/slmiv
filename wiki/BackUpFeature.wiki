@@ -1,0 +1,11 @@
+#labels Featured
+= How do I perform a backup? =
+There are two ways to backup 
+
+= Back-up Batch Jobs =
+||Sign-in using the 'SL Connection' tab feature.||http://joeswammi.com/sl/se/slmyinventory/slmiv2_srcnConn_sm.jpg||
+||After successfully connected and your SLMIV inventory tree has been created, click on the 'Backup' tab. 1) Choose your items [The estimated time will be refreshed each time you select a category] 2) Click the 'Backup These Items' button and the backup will begin. Don't expect your backup to finish faster then the estimated time.||http://joeswammi.com/sl/se/slmyinventory/slmiv2_backuptab1.jpg||
+||You know the backups are completed when you do not see the 'Downloading' or 'Decoding' images progressbar in the upper-right hand corner of the screen. Also the realtime logging stops posting messages after sometime. It backups images last. You may click on the 'Browse Backup Folder' button to open the backup location in Windows Explorer.||http://joeswammi.com/sl/se/slmyinventory/slmiv2_backuptab2.jpg||
+
+= Right-Click Individual Back-ups =
+||Sign-in using the 'SL Connection' tab feature.||http://joeswammi.com/sl/se/slmyinventory/slmiv2_srcnConn_sm.jpg||

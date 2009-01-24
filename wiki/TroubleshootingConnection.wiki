@@ -9,7 +9,7 @@ Sometimes you may receive an error message or hang when you attempt to connect t
 
 {{{
 Q: Where can I find the SLMIV folder on my hard drive?
-A: Where USERNAME = Windows username;AVATARNAME= Second Life name
+A: Where USERNAME = Windows username
 -Windows XP:	C:\Documents and Settings\USERNAME\My Documents\SLMIV
 -Windows Vista:	C:\Users\USERNAME\Documents\SLMIV
 -Windows 7:	C:\Users\USERNAME\Documents\SLMIV

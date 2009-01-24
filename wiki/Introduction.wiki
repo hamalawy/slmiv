@@ -26,6 +26,7 @@ Connection error messages will be displayed in red.
 You may wish to also Export your current inventory to xml at anytime by using the Export to xml feature.
 The connection normally starts having problems when there are issues with the SL Servers themselves. The SL Grid Status is located on the SL Connection tab. 
 Try connecting again when SL states that the regions are cleared up and you are able to login properly with the regular viewer.
+[http://code.google.com/p/slmiv/wiki/TroubleshootingConnection Also visit the troubleshooting wikipage]
 
 === Browse to a properly formatted .xml file ===
 Any locally stored .inv or .xml file that was created by SLMIV v2 can be imported.

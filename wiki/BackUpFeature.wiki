@@ -10,3 +10,7 @@ There are two ways to backup
 
 = Right-Click Individual Back-ups =
 ||Sign-in using the 'SL Connection' tab feature.||http://joeswammi.com/sl/se/slmyinventory/slmiv2_srcnConn_sm.jpg||
+||After successfully connected and your SLMIV inventory tree has been created, select the item you wish to backup. ]NOTE: version 2.10.x can only download Scripts, Notecards, Textures, and other images]. Then right-click and choose download. [NOTE: If you see an enabled 'Open', then you have an entry in the imagelog and you may have this item already backed-up]||http://joeswammi.com/sl/se/slmyinventory/slmiv2_backuprc1.jpg||
+||If the item is a Snapshot or Texture, the ImageViewer dialogbox will appear and display the image or display an error message.||http://joeswammi.com/sl/se/slmyinventory/imageviewerZoom.jpg||
+||If the item is a Script or a Notecard, the NotecardViewer dialogbox will appear and display the text or display an error message. You may open the text in a your default editor for txt files, or save the file.||http://joeswammi.com/sl/se/slmyinventory/notecardviewermarked.jpg||
+||AUTO-ADDS TO YOUR IMAGELOG: Click on 'My Inventory' and select then hover over an image you just backed up, it will display because of the entry made in the imagelog.txt (Logs Tab)||http://joeswammi.com/sl/se/slmyinventory/slmiv2_srcn_sm.jpg||

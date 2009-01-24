@@ -1,0 +1,7 @@
+#summary One-sentence summary of this page.
+
+= How Do I Troubleshoot My Connection to SL using SLMIV? =
+
+Sometimes you may receive an error message or hang when you attempt to connect to Second Life Grid or Custom Grids.  SLMIV tries to log as much as possible for you located in the 
+
+||http://joeswammi.com/sl/se/slmyinventory/slconnectionts.jpg||

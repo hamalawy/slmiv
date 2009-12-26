@@ -13,7 +13,11 @@ SLMIV version 2 makes it easier to obtain your avatar's in world inventory then 
   # Make sure your Windows settings are set to view Hidden Folders and Files.
   # From the "Import-Export" tab, press the "Browse to .inv/.gz..." button.
   # Browse to your .gz file. It will be found at this location on your harddrive:
-C:\Documents and Settings\LoginName\Application Data\SecondLife\cache\xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.inv.gz
+
+||Windows XP||C:\Documents and Settings\LoginName\Application Data\SecondLife\cache\xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.inv.gz||
+||Windows Vista - C:\Users\<username>\AppData\Roaming\SecondLife\cache\xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.inv.gz||
+||Windows 7 - C:\Users\<username>\AppData\Roaming\SecondLife\browser_profile\Cache\\xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.inv.gz||
+
 
 === Connect directly to Second Life using "SL Connection" ===
 ||http://joeswammi.com/sl/se/slmyinventory/slmiv2_srcnConn_sm.jpg||

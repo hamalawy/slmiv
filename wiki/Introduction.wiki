@@ -16,8 +16,15 @@ SLMIV version 2 makes it easier to obtain your avatar's in world inventory then 
 
 ||Windows XP||C:\Documents and Settings\LoginName\Application Data\SecondLife\cache\xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.inv.gz||
 ||Windows Vista||C:\Users\LoginName\AppData\Roaming\SecondLife\cache\xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.inv.gz||
-||Windows 7||C:\Users\LoginName\AppData\Roaming\SecondLife\browser_profile\Cache\\xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.inv.gz||
+||Windows 7||C:\Users\LoginName\AppData\Local\SecondLife\xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.inv.gz||
 
+In Windows 7, you may need to show hidden folders:
+1) Launch Windows Explorer
+2) Select "Organize" in the upper left corner
+3) Go to "Layout" and then "File Menu"
+
+This will display the menu bar. Select "Tools" then "Folder Options"
+Select the "General" tab go to the "Navigation Pane" section and select "Show all folders".
 
 === Connect directly to Second Life using "SL Connection" ===
 ||http://joeswammi.com/sl/se/slmyinventory/slmiv2_srcnConn_sm.jpg||

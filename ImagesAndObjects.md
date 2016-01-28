@@ -1,0 +1,10 @@
+# How do I attach an image to an inventory object? #
+|While your inventory is loaded, right click on the item you wish to attach an image with.  Then select "Attach".|![http://joeswammi.com/sl/se/slmyinventory/rightclick.jpg](http://joeswammi.com/sl/se/slmyinventory/rightclick.jpg)|
+|:---------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------|
+|In this example, we will select "Internet URL...".  Then place the url of the image in the textbox.  (Sign up at [SLBuzz](http://snapshots.slbuzz.com/crosspost) to easily send postcard snapshots to your flicker account) Click "OK" to append the association to the imagelog.txt file. You may also use the "SNAPSHOT TO DISK" feature within SL ([directions](http://wiki.secondlife.com/wiki/Snapshot_Test)).|![http://joeswammi.com/sl/se/slmyinventory/url.jpg](http://joeswammi.com/sl/se/slmyinventory/url.jpg)              |
+|The new image can then be viewed the next time select the object then hover over the object node in the tree. NOTE: The first time you hover over the object node, there will be a slight delay as the image is downloaded (this doesn't apply if you choose to associate a local image and not an image from the internet).  This new image is then saved locally to the images folder so the delay does not occur on the next mouse hover. |![http://joeswammi.com/sl/se/slmyinventory/hover.jpg](http://joeswammi.com/sl/se/slmyinventory/hover.jpg)          |
+
+# What does the default images mean when I hover my mouse over my inventory? #
+|![http://joeswammi.com/sl/se/slmyinventory/nocircle.jpg](http://joeswammi.com/sl/se/slmyinventory/nocircle.jpg)|No current image is attached|
+|:--------------------------------------------------------------------------------------------------------------|:---------------------------|
+|Your photo                                                                                                     |-URLs get downloaded and saved to the 'images' folder for later retrieval|
